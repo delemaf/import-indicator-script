@@ -1,0 +1,4144 @@
+{
+  "programIndicators": [
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "Rwxdw2SrAWN",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - AFP - Alert",
+      "shortName": "Number of active alerts - 2 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"2\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "ZNs2rii8gdp",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "TBxa1SQBkhA",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "nvaXqtKVaqI",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - AFP - Respond",
+      "shortName": "Number of active alerts - 2 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"2\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "jng02AtYr2C",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "kJdZ372bFob",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "Q0pUC4TW5Zi",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - AFP - Watch",
+      "shortName": "Number of active alerts - 2 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"2\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "qjxVdfV5AxL",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "oZokLjxJGDo",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "yURHQ6iXYbG",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Acute VHF - Alert",
+      "shortName": "Number of active alerts - 4 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"4\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "vY768rUQs4s",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "CF1QezmmWh2",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "kUUpcZm0oaP",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Acute VHF - Respond",
+      "shortName": "Number of active alerts - 4 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"4\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "YlQGu4ILf2p",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "j7jyj6Etzu3",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "c8625lohsa2",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Acute VHF - Watch",
+      "shortName": "Number of active alerts - 4 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"4\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "CIl4DcPc5W9",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "SLYwo9S4fQu",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "yC0y0Gan613",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Acute respiratory - Alert",
+      "shortName": "Number of active alerts - 3 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"3\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "QXCUnPQxN9k",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "Rym60IDnm0M",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "V5OgIryKuyq",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Acute respiratory - Respond",
+      "shortName": "Number of active alerts - 3 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"3\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "OIEZOyDsS69",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "NtNqWEqIdfT",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "Zv6xYnDi5Dg",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Acute respiratory - Watch",
+      "shortName": "Number of active alerts - 3 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"3\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "XHjMOZBhBMw",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "Ja04kfa84Ds",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "YCS4CElF2eJ",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Anthrax - Alert",
+      "shortName": "Number of active alerts - 5 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"5\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "SYR3Bc9I4vb",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "kS7PIPzOICM",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "D166OEdaV5q",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Anthrax - Respond",
+      "shortName": "Number of active alerts - 5 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"5\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "hoAqiGrrtxw",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "A7dFi8zR7as",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "qpJ6Zz6dF41",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Anthrax - Watch",
+      "shortName": "Number of active alerts - 5 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"5\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "lLif4T9Fn63",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "DDg1P1IQdHX",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "BYB3HLNUdcF",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Bacterial meningitis  - Alert",
+      "shortName": "Number of active alerts - 6 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"6\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "oxqvzgmOVar",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "qMlH0PZNXbO",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "t9dlCM6wzyn",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Bacterial meningitis  - Respond",
+      "shortName": "Number of active alerts - 6 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"6\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "ZyKytP07gDn",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "g5pUA5L4qJE",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "vbU0B92BZBu",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Bacterial meningitis  - Watch",
+      "shortName": "Number of active alerts - 6 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"6\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "T8q7QDAVXOC",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "tpRzoxEs8Kl",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "uHyea2OGm7P",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - COVID19 - Alert",
+      "shortName": "Number of active alerts - 1 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"1\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "XjYzvCQS4lf",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "Iub5K6uj5Vd",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "NjmezVQQe1x",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - COVID19 - Respond",
+      "shortName": "Number of active alerts - 1 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"1\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "CKhDeNXNwq6",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "zu6nI1SEyGd",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "IDc2s4W7bii",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - COVID19 - Watch",
+      "shortName": "Number of active alerts - 1 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"1\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "RdiLQay00FO",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "SFXVXJ7auHv",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "ZDdjgmuakWB",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Cholera - Alert",
+      "shortName": "Number of active alerts - 7 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"7\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "sKcSx7NjeOG",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "lawF7D0CaZ5",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "cnE6LFpURnY",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Cholera - Respond",
+      "shortName": "Number of active alerts - 7 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"7\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "a8s1rnvEbcM",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "EAKPiFFpKdA",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "lIaBuSVAgG1",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Cholera - Watch",
+      "shortName": "Number of active alerts - 7 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"7\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "KYGmTUzurPY",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "O5rxiN2kI5f",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "yJhITtPio8h",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Diarrhoea with blood box - Alert",
+      "shortName": "Number of active alerts - 8 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"8\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "La1Ec9IPj6p",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "oQuG8K2s439",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "IcCDENDFAUH",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Diarrhoea with blood box - Respond",
+      "shortName": "Number of active alerts - 8 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"8\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "REYjvPdzO9B",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "fvcmzpRpEvK",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "rDDMDXHb5tY",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Diarrhoea with blood box - Watch",
+      "shortName": "Number of active alerts - 8 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"8\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "b3L10LhS91f",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "UN62OgtKAwY",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "X1E3zOHSKrr",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Measles - Alert",
+      "shortName": "Number of active alerts - 9 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"9\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "HzjFWjcIh0t",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "RvBTs34O7LP",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "Lph19i0BSWk",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Measles - Respond",
+      "shortName": "Number of active alerts - 9 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"9\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "jYXCHyXoUdy",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "rhBOM2bzTSB",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "TXXcHzEiDJp",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Measles - Watch",
+      "shortName": "Number of active alerts - 9 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"9\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "bFPJ0T8o0TZ",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "c9jolE7JY2x",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "KOSwoRFLQPm",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Monkeypox - Alert",
+      "shortName": "Number of active alerts - 10 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"10\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "aYADTDkSJUU",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "v2adiCM2XNQ",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "o1eHIgxSqg9",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Monkeypox - Respond",
+      "shortName": "Number of active alerts - 10 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"10\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "Jt2CZY1766V",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "CYkqPwFOLuV",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "jHLSzZ3BpfM",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Monkeypox - Watch",
+      "shortName": "Number of active alerts - 10 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"10\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "NBToG3XBPWp",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "WJ7ceoJdzzR",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "sq41xNqhEIh",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Neonatal tetanus - Alert",
+      "shortName": "Number of active alerts - 11 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"11\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "PiwASJkuquQ",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "b8wD16NRWvW",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "B4rOizQ5rHB",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Neonatal tetanus - Respond",
+      "shortName": "Number of active alerts - 11 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"11\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "c6ISsrCQmxc",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "l8aSQfsJh7q",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "Wj5OMct3dfG",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Neonatal tetanus - Watch",
+      "shortName": "Number of active alerts - 11 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"11\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "qyKOdUlspLd",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "FOifcQsHNVF",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "wAY2Xs6ujXQ",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Plague - Alert",
+      "shortName": "Number of active alerts - 12 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"12\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "RmJO8rLKKAL",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "Wbxs0tPYESO",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "IQ9K3ASRdvp",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Plague - Respond",
+      "shortName": "Number of active alerts - 12 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"12\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "QZqT6DkqLvq",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "gBQhHbSk4Qw",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "hBXtfV01yEx",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Plague - Watch",
+      "shortName": "Number of active alerts - 12 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"12\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "KMopeJZnURT",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "RlLcdqTksnG",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "sJVCOG5iT27",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - SARIs - Alert",
+      "shortName": "Number of active alerts - 13 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"13\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "uGFJ03Az6dZ",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "MA6ZyjD0E5G",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "nmuMaVkpiUw",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - SARIs - Respond",
+      "shortName": "Number of active alerts - 13 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"13\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "wi6aLV6OMOZ",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "BoxGOzwXgzN",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "TMhI9Sl4g2d",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - SARIs - Watch",
+      "shortName": "Number of active alerts - 13 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"13\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "nWVFP2gp73F",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "g2OhhYtmoap",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "KDGfFR74RQD",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Typhoid fever - Alert",
+      "shortName": "Number of active alerts - 14 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"14\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "MiYAB1dhP8s",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "Se7OlGEyIce",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "adG7Nqfhvmb",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Typhoid fever - Respond",
+      "shortName": "Number of active alerts - 14 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"14\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "GfNg1tCsmO5",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "B7Ei8TRCTRG",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "UAIt3kWOvce",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Typhoid fever - Watch",
+      "shortName": "Number of active alerts - 14 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"14\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "cnTDasKmYfh",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "kys0yhKcaHN",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "AXS8HCz9Py2",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Zika fever - Alert",
+      "shortName": "Number of active alerts - 15 - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\" && A{jLvbkuvPdZ6}==\"15\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "yg9bAssF31H",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "PSASU1VZ8R9",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "isHD28QoYBN",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Zika fever - Respond",
+      "shortName": "Number of active alerts - 15 - RESPOND",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"RESPOND\" && A{jLvbkuvPdZ6}==\"15\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "C46BFoDZ7n9",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "PrmLUhdeRkx",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-31T13:03:07.234Z",
+      "id": "sr3u84IAKYa",
+      "created": "2024-07-31T13:03:07.234Z",
+      "name": "Number of active alerts - Zika fever - Watch",
+      "shortName": "Number of active alerts - 15 - WATCH",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"WATCH\" && A{jLvbkuvPdZ6}==\"15\"",
+      "analyticsType": "ENROLLMENT",
+      "program": {
+        "id": "qkOTdxkte8V"
+      },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "N5WPRq8MqNJ",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-31T13:03:07.234Z",
+          "id": "rSJezBpEZ4D",
+          "created": "2024-07-31T13:03:07.234Z",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": {
+            "userGroups": {},
+            "external": false,
+            "users": {}
+          },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    }
+  ]
+}

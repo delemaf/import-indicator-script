@@ -1,0 +1,17 @@
+{
+  "name": "import-indicator-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node script.ts"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.0.0",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "types": "types/index.d.ts"
+}

@@ -1,0 +1,5606 @@
+{
+  "system": {
+    "id": "b4d31c13-e829-455b-9584-fca7fdffdc3a",
+    "rev": "3a1a2d4",
+    "version": "2.38.6",
+    "date": "2024-07-30T19:07:13.095"
+  },
+  "trackedEntityAttributes": [
+    {
+      "code": "RTSL_ZEB_TEA_APPROPRIATE_CASE_MANAGEMENT",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "R2xWP9E2Eyi",
+      "created": "2024-06-05T17:20:33.082",
+      "name": "Appropriate case management",
+      "shortName": "Appropriate case management",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TRUE_ONLY",
+      "formName": "Initiate appropriate case management and infection prevention and control (IPC) measures in health facilities",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_APPROPRIATE_PUBLIC_HEALTH",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "RgVSoFq39Z0",
+      "created": "2024-06-05T17:30:56.701",
+      "name": "Appropriate public health",
+      "shortName": "Appropriate public health",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TRUE_ONLY",
+      "formName": "Initiate appropriate public health countermeasures in affected communities",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_APPROPRIATE_RISK_COMMUNICATION",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "JIuk1Er4XNz",
+      "created": "2024-06-05T17:32:18.196",
+      "name": "Appropriate risk communication",
+      "shortName": "Appropriate risk communication",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TRUE_ONLY",
+      "formName": "Initiate appropriate risk communication and community engagement activities",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_AREAS_AFFECTED_DISTRICTS",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "UZjF2Ef9ArZ",
+      "created": "2024-06-05T16:03:39.410",
+      "name": "Areas Affected - Districts",
+      "shortName": "Areas Affected - Districts",
+      "aggregationType": "DEFAULT",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "ORGANISATION_UNIT",
+      "formName": "Areas Affected - Districts",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_AREAS_AFFECTED_PROVINCES",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "MIyOkfNd3xh",
+      "created": "2024-06-03T10:36:16.778",
+      "name": "Areas Affected - Provinces",
+      "shortName": "Areas Affected - Provinces",
+      "aggregationType": "DEFAULT",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "ORGANISATION_UNIT",
+      "formName": "Areas Affected - Provinces",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_ASSIGN_INCIDENT_MANAGER",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "HnGT0n3bxGZ",
+      "created": "2024-06-05T17:35:57.532",
+      "name": "Assign Incident Manager",
+      "shortName": "Assign Incident Manager",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "USERNAME",
+      "formName": "Assign Incident Manager",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_CONDUCT_EPIDEMIOLOGICAL_ANALYSIS",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "X0etAL2vHoO",
+      "created": "2024-06-05T16:58:35.274",
+      "name": "Conduct epidemiological analysis",
+      "shortName": "Conduct epidemiological analysis",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Conduct epidemiological analysis of burden, severity, and risk factors, and perform initial risk assessment",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_CONFIRMED_CASES",
+      "lastUpdated": "2024-07-26T15:16:36.658",
+      "id": "OGlPdC5cPMv",
+      "created": "2024-07-26T15:16:36.658",
+      "name": "Confirmed Cases",
+      "shortName": "Confirmed Cases",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "INTEGER",
+      "formName": "Confirmed Cases",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATA_SOURCE",
+      "lastUpdated": "2024-07-26T15:02:19.392",
+      "id": "AD7sd4VqdIJ",
+      "created": "2024-07-26T15:02:19.392",
+      "name": "Data Source",
+      "shortName": "Data Source",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Data Source",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "optionSet": { "id": "kSsd5PSQqH7" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATE_DETECTED",
+      "lastUpdated": "2024-07-26T15:14:00.098",
+      "id": "ecYRs96jEwd",
+      "created": "2024-06-03T11:23:00.192",
+      "name": "Date Detected",
+      "shortName": "Date Detected",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Date Detected",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATE_DETECTED_NARRATIVE",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "ihkso9sBSy8",
+      "created": "2024-06-03T12:06:08.121",
+      "name": "Date Detected Narrative",
+      "shortName": "Date Detected Narrative ",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "description": "Provide concise details",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Date Detected Narrative",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATE_EMERGED",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "PlAQX9j3tBD",
+      "created": "2024-06-03T10:46:56.518",
+      "name": "Date Emerged ",
+      "shortName": "Date Emerged ",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Date Emerged ",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATE_EMERGED_NARRATIVE",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "Ty3jSGXAGMF",
+      "created": "2024-06-03T12:05:02.948",
+      "name": "Date Emerged Narrative",
+      "shortName": "Date Emerged Narrative",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "description": "Provide concise details",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Date Emerged Narrative",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATE_NOTIFIED",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "h9nPYaleCxE",
+      "created": "2024-06-03T11:23:39.961",
+      "name": "Date Notified",
+      "shortName": "Date Notified",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Date Notified",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATE_NOTIFIED_NARRATIVE",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "baXJssWSL8r",
+      "created": "2024-06-03T12:06:43.784",
+      "name": "Date Notified Narrative",
+      "shortName": "Date Notified Narrative",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "description": "Provide concise details",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Date Notified Narrative",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DATE_RESPONDED",
+      "lastUpdated": "2024-07-26T15:06:32.240",
+      "id": "BiSEw3wdAyx",
+      "created": "2024-07-26T15:06:32.240",
+      "name": "Date Responded",
+      "shortName": "Date Responded",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Date Responded",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DEATHS",
+      "lastUpdated": "2024-07-26T15:17:07.014",
+      "id": "utwFePMsKfd",
+      "created": "2024-07-26T15:17:07.014",
+      "name": "Deaths",
+      "shortName": "Deaths",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "NUMBER",
+      "formName": "Deaths",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_DISEASE",
+      "lastUpdated": "2024-07-26T15:03:09.859",
+      "id": "agsVaIpit4S",
+      "created": "2024-07-26T15:03:09.859",
+      "name": "Disease",
+      "shortName": "Disease",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Disease",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_ESTABLISH_COORDINATION_MECHANISM",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "a6dDoNNUwQl",
+      "created": "2024-06-05T17:33:44.043",
+      "name": "Establish a Coordination Mechanism",
+      "shortName": "Establish a Coordination Mechanism",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Establish a coordination mechanism",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_EVENT_id",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "Pq1drzz2HJk",
+      "created": "2024-06-25T13:36:26.183",
+      "name": "Event ID",
+      "shortName": "Event ID",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "description": "Event ID",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "NUMBER",
+      "formName": "Event ID",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_EVENT_LOCATION",
+      "lastUpdated": "2024-07-26T15:20:03.262",
+      "id": "k82Ndufuh7d",
+      "created": "2024-07-26T15:20:03.262",
+      "name": "Event Location",
+      "shortName": "Event Location",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Event Location",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_EVENT_NAME",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "fyrLOW9Iwwv",
+      "created": "2024-06-03T10:19:39.624",
+      "name": "Event Name ",
+      "shortName": "Event Name",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "description": "Be specific. Include disease, date and region",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Event Name",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_EVENT_TYPE",
+      "lastUpdated": "2024-07-26T15:04:27.814",
+      "id": "ydsfY6zyvt7",
+      "created": "2024-07-26T15:04:27.814",
+      "name": "Event Type",
+      "shortName": "Event Type",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Event Type",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_HAZARD_TYPE",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "Dzrw3Tf0ukB",
+      "created": "2024-06-03T10:26:20.782",
+      "name": "Hazard Type",
+      "shortName": "Hazard Type",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Hazard Type",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "optionSet": { "id": "p2N1GkG713S" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_INCIDENT_MANAGER",
+      "lastUpdated": "2024-07-26T15:21:58.091",
+      "id": "rZZbtgqC4YZ",
+      "created": "2024-07-26T15:21:58.091",
+      "name": "Incident Manager",
+      "shortName": "Incident Manager",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "USERNAME",
+      "formName": "Incident Manager",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_INCIDENT_STATUS",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "cDLJoNCWHHs",
+      "created": "2024-06-03T10:40:56.133",
+      "name": "Incident Status",
+      "shortName": "Incident Status",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Incident Status",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "optionSet": { "id": "BhYOdRU5xsg" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_INITIATE_INVESTIGATION",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "YB4tZlq1UQS",
+      "created": "2024-06-05T16:55:48.941",
+      "name": "Initiate investigation",
+      "shortName": "Initiate investigation",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Initiate investigation or deploy an investigation/response team",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_LABORATORY_CONFIRMATION",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "EgzMNDSaFBQ",
+      "created": "2024-06-05T17:17:05.735",
+      "name": "Laboratory confirmation",
+      "shortName": "Laboratory confirmation",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TRUE_ONLY",
+      "formName": "Obtain laboratory confirmation of the outbreak etiology",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_MAIN_SYNDROME",
+      "lastUpdated": "2024-07-23T13:05:17.289",
+      "id": "z1cc53RvtLR",
+      "created": "2024-06-03T10:28:59.669",
+      "name": "Main Syndrome",
+      "shortName": "Main Syndrome",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Main Syndrome",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "optionSet": { "id": "C4SAsw2Li1v" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_NATIONAL_INCIDENT_STATUS",
+      "lastUpdated": "2024-07-26T15:21:10.393",
+      "id": "KeUbzfFQYCX",
+      "created": "2024-07-26T15:21:10.393",
+      "name": "National Incident Status",
+      "shortName": "National Incident Status",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "National Incident Status",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_NOTES",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "UbpLHE6F4aB",
+      "created": "2024-06-05T17:36:27.743",
+      "name": "Notes",
+      "shortName": "Notes",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "LONG_TEXT",
+      "formName": "Notes",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_NOTIFICATION_SOURCE",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "fyLes5E0hn2",
+      "created": "2024-06-03T10:32:15.076",
+      "name": "Notification Source",
+      "shortName": "Notification Source",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Notification Source",
+      "confidential": false,
+      "orgunitScope": false,
+      "fieldMask": "Select source",
+      "unique": false,
+      "inherit": false,
+      "optionSet": { "id": "sWJfduaSmm8" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_SPECIFY_DATE1",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "I7KVtG2uuQo",
+      "created": "2024-06-05T17:18:01.131",
+      "name": "Please, specify date1",
+      "shortName": "Please, specify date1",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Please, specify date",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_SPECIFY_DATE2",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "Z3Dd6bYDBkF",
+      "created": "2024-06-05T17:30:06.524",
+      "name": "Please, specify date2",
+      "shortName": "Please, specify date2",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Please, specify date",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_SPECIFY_DATE3",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "yM9SduUp4yQ",
+      "created": "2024-06-05T17:31:33.597",
+      "name": "Please, specify date3",
+      "shortName": "Please, specify date3",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Please, specify date",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_SPECIFY_DATE4",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "r2ReUK5eLkw",
+      "created": "2024-06-05T17:32:53.797",
+      "name": "Please, specify date4",
+      "shortName": "Please, specify date4",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Please, specify date",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_PROBABLE_CASES",
+      "lastUpdated": "2024-07-26T15:15:24.184",
+      "id": "txdFaxrmqjd",
+      "created": "2024-07-26T15:15:24.184",
+      "name": "Probable Cases",
+      "shortName": "Probable Cases",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "INTEGER",
+      "formName": "Probable Cases",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_REGIONAL_INCIDENT_STATUS",
+      "lastUpdated": "2024-07-26T15:20:40.947",
+      "id": "lz69vXDZVLZ",
+      "created": "2024-07-26T15:20:40.947",
+      "name": "Regional Incident Status",
+      "shortName": "Regional Incident Status",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Regional Incident Status",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_REPORTED_DATE",
+      "lastUpdated": "2024-07-26T15:08:05.876",
+      "id": "R2TS92HX31L",
+      "created": "2024-07-26T15:08:05.876",
+      "name": "Reported Date",
+      "shortName": "Reported Date",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "DATE",
+      "formName": "Reported Date",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_RESPONSE_NARRATIVE",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "SeIBU0e4dSd",
+      "created": "2024-06-05T17:34:31.252",
+      "name": "Response Narrative",
+      "shortName": "Response Narrative",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "LONG_TEXT",
+      "formName": "Response narrative",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_SUSPECTED_CASES",
+      "lastUpdated": "2024-07-26T15:10:15.933",
+      "id": "g7PUyzvh1np",
+      "created": "2024-07-26T15:10:15.933",
+      "name": "Suspected Cases",
+      "shortName": "Suspected Cases",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "NUMBER",
+      "formName": "Suspected Cases",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_SUSPECTED_DISEASE",
+      "lastUpdated": "2024-07-12T09:12:18.080",
+      "id": "jLvbkuvPdZ6",
+      "created": "2024-06-03T10:30:40.572",
+      "name": "Suspected Disease",
+      "shortName": "Suspected Disease",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Suspected Disease",
+      "confidential": false,
+      "orgunitScope": false,
+      "fieldMask": "Select disease",
+      "unique": false,
+      "inherit": false,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_TEA_VERIFICATION_STATUS",
+      "lastUpdated": "2024-07-26T15:22:24.632",
+      "id": "HvgldgBK8Th",
+      "created": "2024-07-26T15:22:24.632",
+      "name": "Verification Status",
+      "shortName": "Verification Status",
+      "aggregationType": "NONE",
+      "displayInListNoProgram": false,
+      "pattern": "",
+      "skipSynchronization": false,
+      "generated": false,
+      "displayOnVisitSchedule": false,
+      "valueType": "TEXT",
+      "formName": "Verification Status",
+      "confidential": false,
+      "orgunitScope": false,
+      "unique": false,
+      "inherit": false,
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "attributeValues": [],
+      "legendSets": []
+    }
+  ],
+  "programIndicators": [
+    {
+      "lastUpdated": "2024-07-12T09:12:18.281",
+      "id": "GC8OCdaAWJ3",
+      "created": "2024-07-09T06:26:38.947",
+      "name": "Attack Rate - HIGH",
+      "shortName": "Attack Rate - HIGH",
+      "aggregationType": "COUNT",
+      "expression": "V{event_count}",
+      "filter": "#{swh2ZukmkDk.HfiSumUhxMf}==\"HIGH\"",
+      "analyticsType": "EVENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "EEWDuEzii2o",
+          "created": "2024-07-09T06:26:04.187",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "EVENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "jLMt0UzDLcv",
+          "created": "2024-07-09T06:26:04.187",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "EVENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-12T09:12:18.280",
+      "id": "NalOD9yjjBb",
+      "created": "2024-07-09T06:26:04.187",
+      "name": "Attack Rate - Low",
+      "shortName": "Attack Rate - Low",
+      "aggregationType": "COUNT",
+      "expression": "V{event_count}",
+      "filter": "#{swh2ZukmkDk.HfiSumUhxMf}==\"LOW\"",
+      "analyticsType": "EVENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "yBplaRbcLE1",
+          "created": "2024-07-09T06:26:04.187",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "EVENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "Q39xl4RdknR",
+          "created": "2024-07-09T06:26:04.187",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "EVENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-12T09:12:18.282",
+      "id": "L1HcuaJVOxl",
+      "created": "2024-07-09T06:26:23.749",
+      "name": "Attack Rate - Medium",
+      "shortName": "Attack Rate - Medium",
+      "aggregationType": "COUNT",
+      "expression": "V{event_count}",
+      "filter": "#{swh2ZukmkDk.HfiSumUhxMf}==\"MEDIUM\"",
+      "analyticsType": "EVENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.282",
+          "id": "YaWoaQlKUOQ",
+          "created": "2024-07-09T06:26:04.187",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "EVENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.282",
+          "id": "xqJuTMcq0V3",
+          "created": "2024-07-09T06:26:04.187",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "EVENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_DETECT_7D",
+      "lastUpdated": "2024-07-12T09:12:18.281",
+      "id": "cGFwM7qiPzl",
+      "created": "2024-07-08T09:56:24.804",
+      "name": "Detect 7d",
+      "shortName": "Detect 7d",
+      "aggregationType": "DEFAULT",
+      "expression": "d2:daysBetween(A{ecYRs96jEwd},A{PlAQX9j3tBD})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "JiXkhsRMcRX",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.282",
+          "id": "BCGLuu583cS",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_ERA1",
+      "lastUpdated": "2024-07-12T09:12:18.282",
+      "id": "Ylmo2fEijff",
+      "created": "2024-07-08T20:22:43.518",
+      "name": "ERA1",
+      "shortName": "ERA1",
+      "aggregationType": "SUM",
+      "expression": "d2:daysBetween(A{YB4tZlq1UQS},V{enrollment_date})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.282",
+          "id": "ILsgeJhSJvt",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.282",
+          "id": "zS7sQIA0Gi0",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_ERA2",
+      "lastUpdated": "2024-07-12T09:12:18.282",
+      "id": "w4FOvRAyjEE",
+      "created": "2024-07-08T20:25:43.461",
+      "name": "ERA2",
+      "shortName": "ERA2",
+      "aggregationType": "SUM",
+      "expression": "d2:daysBetween(A{X0etAL2vHoO},V{enrollment_date})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.282",
+          "id": "aah24n3OolL",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.282",
+          "id": "C6zehHFBJnU",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_ERA3",
+      "lastUpdated": "2024-07-12T09:12:18.281",
+      "id": "RdLmpMM7lM5",
+      "created": "2024-07-08T20:26:35.985",
+      "name": "ERA3",
+      "shortName": "ERA3",
+      "aggregationType": "SUM",
+      "expression": "d2:daysBetween(A{I7KVtG2uuQo},V{enrollment_date})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "BfaHOS0Nhhx",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "LQ7sY0e2bjL",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_ERA4",
+      "lastUpdated": "2024-07-12T09:12:18.281",
+      "id": "xT4TgUZhMkk",
+      "created": "2024-07-08T20:26:55.202",
+      "name": "ERA4",
+      "shortName": "ERA4",
+      "aggregationType": "SUM",
+      "expression": "d2:daysBetween(A{Z3Dd6bYDBkF},V{enrollment_date})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "YtDJo30pLEo",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "WKfjDOqx27t",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_ERA5",
+      "lastUpdated": "2024-07-12T09:12:18.281",
+      "id": "UwEdN0kWFqv",
+      "created": "2024-07-08T20:27:16.426",
+      "name": "ERA5",
+      "shortName": "ERA5",
+      "aggregationType": "SUM",
+      "expression": "d2:daysBetween(A{yM9SduUp4yQ},V{enrollment_date})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "l89zEXKvEa6",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "wCKTjAPJMpO",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_ERA6",
+      "lastUpdated": "2024-07-12T09:12:18.280",
+      "id": "xtetmvZ9WoV",
+      "created": "2024-07-08T20:27:42.320",
+      "name": "ERA6",
+      "shortName": "ERA6",
+      "aggregationType": "SUM",
+      "expression": "d2:daysBetween(A{r2ReUK5eLkw},V{enrollment_date})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "qBu6u0AYYpN",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "jQUAkIuSlOZ",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_ERA7",
+      "lastUpdated": "2024-07-12T09:12:18.280",
+      "id": "GgUJMCklxFu",
+      "created": "2024-07-08T20:28:09.566",
+      "name": "ERA7",
+      "shortName": "ERA7",
+      "aggregationType": "SUM",
+      "expression": "d2:daysBetween(A{a6dDoNNUwQl},V{enrollment_date})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "CKYMY3AbrFH",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "v0N4XByeSLR",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "code": "RTSL_ZEB_IND_NOTIFY_1D",
+      "lastUpdated": "2024-07-12T09:12:18.279",
+      "id": "HDa3nE7Elxj",
+      "created": "2024-07-08T09:59:02.106",
+      "name": "Notify 1d",
+      "shortName": "Notify 1d",
+      "aggregationType": "AVERAGE",
+      "expression": "d2:daysBetween(A{ecYRs96jEwd},A{h9nPYaleCxE})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.279",
+          "id": "GPxGmuVt46N",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "mJQ2fv2dAs8",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-24T11:48:56.053",
+      "id": "dr4OT0ql4cl",
+      "created": "2024-07-24T11:48:56.053",
+      "name": "Number of active alerts",
+      "shortName": "Number of active alerts",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "A{cDLJoNCWHHs}==\"ALERT\"",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-24T11:48:56.053",
+          "id": "KV4MwgOOWyF",
+          "created": "2024-07-24T11:48:56.053",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-24T11:48:56.054",
+          "id": "QxQ9NHBwDJL",
+          "created": "2024-07-24T11:48:56.054",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-12T09:12:18.281",
+      "id": "F3emWHyyOfs",
+      "created": "2024-07-05T06:24:12.844",
+      "name": "Number of events notified to public health authorities within 1 day of detection",
+      "shortName": "# events notified to health authorities 1 day",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "d2:daysBetween(A{ecYRs96jEwd},A{h9nPYaleCxE}) <=1",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "pwS89tBKPmT",
+          "created": "2024-07-05T06:24:12.844",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.281",
+          "id": "KMArq7P4f0o",
+          "created": "2024-07-05T06:24:12.845",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-12T09:12:18.280",
+      "id": "jnJHR2D0cN3",
+      "created": "2024-07-05T05:43:28.449",
+      "name": "Number of events that were detected within 7 days of date of emergence",
+      "shortName": "# events detected within 7 days date of emergence",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "d2:daysBetween(A{PlAQX9j3tBD},A{ecYRs96jEwd}) <= 7",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "SvdnkK14O6n",
+          "created": "2024-07-05T05:55:04.090",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "vEiYUdAmTn0",
+          "created": "2024-07-05T05:55:04.090",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-24T11:50:13.791",
+      "id": "rfpmsZWFH4X",
+      "created": "2024-07-24T11:50:13.791",
+      "name": "Number of events that were detected within 7 days of date of emergence - ALERT",
+      "shortName": "# events detected within 7 days date of em - ALERT",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "d2:daysBetween(A{PlAQX9j3tBD},A{ecYRs96jEwd}) <= 7 && A{cDLJoNCWHHs}==\"ALERT\"",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-24T11:50:13.791",
+          "id": "IDuKlWejFKj",
+          "created": "2024-07-05T05:55:04.090",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-24T11:50:13.791",
+          "id": "py6qeCY1kbp",
+          "created": "2024-07-05T05:55:04.090",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-12T09:12:18.280",
+      "id": "ZX0uPp3ik81",
+      "created": "2024-07-09T06:16:55.586",
+      "name": "Number of events where at least one initial (early) response action started within 1 day of notification",
+      "shortName": "# events response action started 1 day",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "filter": "d2:daysBetween(A{YB4tZlq1UQS},A{h9nPYaleCxE}) <=1",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "H94xmA7uWjM",
+          "created": "2024-07-05T06:24:12.844",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-12T09:12:18.280",
+          "id": "MP7cggA531v",
+          "created": "2024-07-05T06:24:12.845",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-24T11:52:20.232",
+      "id": "UuYfx9OboXT",
+      "created": "2024-07-05T06:00:28.450",
+      "name": "Total # of Enrollments",
+      "shortName": "Total # of Enrollments",
+      "aggregationType": "COUNT",
+      "expression": "V{enrollment_count}",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "qkOTdxkte8V" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {
+          "DArWOF0bsdE": {
+            "displayName": "RTSL_ZEBRA - Data Visualizer",
+            "access": "r-------",
+            "id": "DArWOF0bsdE"
+          },
+          "MS0nENq8gvt": {
+            "displayName": "RTSL_ZEBRA - Access",
+            "access": "rw------",
+            "id": "MS0nENq8gvt"
+          },
+          "vIBTz63Yora": {
+            "displayName": "RTSL_ZEBRA - Data Capture",
+            "access": "r-------",
+            "id": "vIBTz63Yora"
+          },
+          "xneKOaP9Ee7": {
+            "displayName": "RTSL_ZEBRA - Admin",
+            "access": "rw------",
+            "id": "xneKOaP9Ee7"
+          }
+        },
+        "external": false,
+        "public": "--------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-24T11:52:20.232",
+          "id": "DKoMQvAnbmV",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-24T11:52:20.232",
+          "id": "pWWeELNvVlk",
+          "created": "2024-07-05T06:00:28.450",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:16:52.065",
+      "id": "WbOK17uXS0q",
+      "created": "2024-07-30T10:54:23.945",
+      "name": "sum of number of confirmed cases in the daily/weekly update stage over last week for that disease ",
+      "shortName": "New Confirmed Cases",
+      "aggregationType": "COUNT",
+      "description": "sum of number of confirmed cases in the daily/weekly update stage over last week for that disease ",
+      "expression": "sum(#{BTmMxEEl1Xs.ApKJDLI5nHP})",
+      "filter": "d2:daysBetween(#{BTmMxEEl1Xs.hpAPi68ThJR}, V{current_date}) <= 7",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:16:52.065",
+          "id": "qTnq0FlvuPG",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:16:52.065",
+          "id": "cDGTic0WmrF",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:27:04.944",
+      "id": "lkaHucDMI9J",
+      "created": "2024-07-30T11:27:04.944",
+      "name": "sum of number of confirmed cases in the daily/weekly update stage since the first reported case for that disease ",
+      "shortName": "Cumulative Confirmed Cases",
+      "aggregationType": "COUNT",
+      "description": "sum of number of confirmed cases in the daily/weekly update stage since the first reported case for that disease ",
+      "expression": "sum(#{BTmMxEEl1Xs.ApKJDLI5nHP})",
+      "filter": "d2:daysBetween(#{BTmMxEEl1Xs.hpAPi68ThJR}, V{current_date}) <= 7",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:27:04.944",
+          "id": "VTh2M6eISxB",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:27:04.944",
+          "id": "FfwZFPhkH3f",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:17:04.135",
+      "id": "bK0XOUR9Uko",
+      "created": "2024-07-30T10:57:40.735",
+      "name": "sum of number of deaths in the daily/weekly update stage over last week for that disease ",
+      "shortName": "New Deaths",
+      "aggregationType": "COUNT",
+      "description": "sum of number of deaths in the daily/weekly update stage over last week for that disease ",
+      "expression": "sum(#{BTmMxEEl1Xs.Sfl82Bx0ZNz})",
+      "filter": "d2:daysBetween(#{BTmMxEEl1Xs.hpAPi68ThJR}, V{current_date}) <= 7\n",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:17:04.135",
+          "id": "vgZN41bxPPA",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:17:04.136",
+          "id": "oRKCriGewAP",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:27:47.846",
+      "id": "sVauVIIZITZ",
+      "created": "2024-07-30T11:27:47.846",
+      "name": "sum of number of deaths in the daily/weekly update stage since the first reported case for that disease ",
+      "shortName": "Cumulative Deaths",
+      "aggregationType": "COUNT",
+      "description": "sum of number of deaths in the daily/weekly update stage since the first reported case for that disease ",
+      "expression": "sum(#{BTmMxEEl1Xs.Sfl82Bx0ZNz})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:27:47.846",
+          "id": "X3LP1ETCzRh",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:27:47.847",
+          "id": "i9DIuIlyh9Y",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:17:14.252",
+      "id": "ZUuw7F4ZbB3",
+      "created": "2024-07-30T10:53:20.440",
+      "name": "sum of number of probable cases -new in the daily/weekly update stage over last week for that disease ",
+      "shortName": "New Probable Cases",
+      "aggregationType": "COUNT",
+      "description": "sum of number of probable cases -new in the daily/weekly update stage over last week for that disease",
+      "expression": "sum(#{BTmMxEEl1Xs.bUMlIfyJEYK})",
+      "filter": "d2:daysBetween(#{BTmMxEEl1Xs.hpAPi68ThJR}, V{current_date}) <= 7",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:17:14.253",
+          "id": "tdWFHzlGOqp",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:17:14.253",
+          "id": "spCl2owcdkE",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:26:27.409",
+      "id": "OFljX3FgFv6",
+      "created": "2024-07-30T11:26:27.409",
+      "name": "sum of number of probable cases in the daily/weekly update stage since the first reported case for that disease ",
+      "shortName": "Cumulative Probable Cases",
+      "aggregationType": "COUNT",
+      "description": "sum of number of probable cases in the daily/weekly update stage since the first reported case for that disease ",
+      "expression": "sum(#{BTmMxEEl1Xs.bUMlIfyJEYK})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:26:27.409",
+          "id": "GQ8sSNFWlMW",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:26:27.410",
+          "id": "scDvPOcPsoO",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:17:30.132",
+      "id": "bhXiv0D6xTD",
+      "created": "2024-07-24T16:02:02.932",
+      "name": "sum of number of suspected cases - new in the daily/weekly update stage over last week for that disease ",
+      "shortName": "New Suspected Cases",
+      "aggregationType": "COUNT",
+      "description": "sum of number of suspected cases - new in the daily/weekly update stage over last week for that disease ",
+      "expression": "sum(#{BTmMxEEl1Xs.d4B5pN7ZTEu})",
+      "filter": "d2:daysBetween(#{BTmMxEEl1Xs.hpAPi68ThJR}, V{current_date}) <= 7\n",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:17:30.132",
+          "id": "wUgzGARm13m",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:17:30.132",
+          "id": "Ig2v0d14jmf",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    },
+    {
+      "lastUpdated": "2024-07-30T11:25:42.880",
+      "id": "MyIRGC1zwRw",
+      "created": "2024-07-30T11:25:42.880",
+      "name": "sum of number of suspected cases in the daily/weekly update stage since the first reported case for that disease",
+      "shortName": "Cumulative Suspected Cases",
+      "aggregationType": "COUNT",
+      "description": "sum of number of suspected cases in the daily/weekly update stage since the first reported case for that disease",
+      "expression": "sum(#{BTmMxEEl1Xs.d4B5pN7ZTEu})",
+      "analyticsType": "ENROLLMENT",
+      "program": { "id": "MQtbs8UkBxy" },
+      "lastUpdatedBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "sharing": {
+        "owner": "TC5tfBmieZ6",
+        "userGroups": {},
+        "external": false,
+        "public": "rw------",
+        "users": {}
+      },
+      "createdBy": {
+        "displayName": "dev user",
+        "name": "dev user",
+        "id": "TC5tfBmieZ6",
+        "username": "dev.user"
+      },
+      "translations": [],
+      "analyticsPeriodBoundaries": [
+        {
+          "lastUpdated": "2024-07-30T11:25:42.880",
+          "id": "YBbnGyBxRxM",
+          "created": "2024-07-24T16:02:02.932",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        },
+        {
+          "lastUpdated": "2024-07-30T11:25:42.880",
+          "id": "INQFoqlwWxh",
+          "created": "2024-07-24T16:02:02.933",
+          "externalAccess": false,
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "favorite": false,
+          "access": {
+            "read": true,
+            "update": true,
+            "externalize": true,
+            "write": true,
+            "delete": true,
+            "manage": true
+          },
+          "sharing": { "userGroups": {}, "external": false, "users": {} },
+          "favorites": [],
+          "translations": [],
+          "userGroupAccesses": [],
+          "attributeValues": [],
+          "userAccesses": []
+        }
+      ],
+      "attributeValues": [],
+      "legendSets": []
+    }
+  ],
+  "options": [
+    {
+      "code": "Q4",
+      "created": "2024-06-11T17:36:38.433",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "+Additional risk question",
+      "id": "HMHp9ee1MTm",
+      "sortOrder": 4,
+      "optionSet": { "id": "ooZU7HPzQ2w" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "2",
+      "created": "2024-07-25T14:04:47.953",
+      "lastUpdated": "2024-07-25T14:04:47.983",
+      "name": "AFP",
+      "id": "PfHKoji1t6v",
+      "sortOrder": 2,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "3",
+      "created": "2024-06-11T16:42:44.477",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Above 0.25%",
+      "id": "LOfDg2hnkCN",
+      "sortOrder": 3,
+      "optionSet": { "id": "TxKb2zdYxKk" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "4",
+      "created": "2024-07-25T14:05:44.855",
+      "lastUpdated": "2024-07-25T14:05:44.886",
+      "name": "Acute VHF",
+      "id": "TCpS0UoNpG5",
+      "sortOrder": 4,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "3",
+      "created": "2024-07-25T14:05:31.891",
+      "lastUpdated": "2024-07-25T14:05:31.932",
+      "name": "Acute respiratory",
+      "id": "CUXLvKISDY2",
+      "sortOrder": 3,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "ALERT",
+      "created": "2024-06-05T16:03:36.379",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Alert",
+      "id": "WHO4jG06TN9",
+      "sortOrder": 2,
+      "optionSet": { "id": "BhYOdRU5xsg" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "LIKE5",
+      "created": "2024-06-11T17:40:55.723",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Almost certain",
+      "id": "ClyD3QD3HL8",
+      "sortOrder": 5,
+      "optionSet": { "id": "duQqbJwq2IE" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "5",
+      "created": "2024-07-25T14:05:53.740",
+      "lastUpdated": "2024-07-25T14:05:53.773",
+      "name": "Anthrax",
+      "id": "CtQI4qVXohj",
+      "sortOrder": 5,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "3",
+      "created": "2024-06-11T16:50:58.034",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Available at national with support required from international",
+      "id": "t93SqQ61RUe",
+      "sortOrder": 3,
+      "optionSet": { "id": "Olw4ntNJRBQ" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "1",
+      "created": "2024-06-11T16:50:41.486",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Available within the district with support from provincial and national level",
+      "id": "T3hNwLJL21L",
+      "sortOrder": 1,
+      "optionSet": { "id": "Olw4ntNJRBQ" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "2",
+      "created": "2024-06-11T16:50:48.499",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Available within the province with minimal support from national level",
+      "id": "oKMcjjI2Fbm",
+      "sortOrder": 2,
+      "optionSet": { "id": "Olw4ntNJRBQ" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "6",
+      "created": "2024-07-25T14:06:08.593",
+      "lastUpdated": "2024-07-25T14:06:08.624",
+      "name": "Bacterial meningitis ",
+      "id": "D2YJm7Gq0l2",
+      "sortOrder": 6,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "2",
+      "created": "2024-06-11T16:42:37.785",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Between 0.1% to 0.25%",
+      "id": "upWarRW8EmK",
+      "sortOrder": 2,
+      "optionSet": { "id": "TxKb2zdYxKk" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "BIOLOGICAL_ANIMAL",
+      "created": "2024-06-05T16:00:40.796",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Biological: Animal",
+      "id": "UscXINLumPM",
+      "sortOrder": 2,
+      "optionSet": { "id": "p2N1GkG713S" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "BIOLOGICAL_HUMAN",
+      "created": "2024-06-05T15:59:44.761",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Biological: Human",
+      "id": "Q6IgkKLmv5h",
+      "sortOrder": 1,
+      "optionSet": { "id": "p2N1GkG713S" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "1",
+      "created": "2024-07-25T14:04:09.233",
+      "lastUpdated": "2024-07-25T14:04:09.259",
+      "name": "COVID19",
+      "id": "y7e9Beqqekj",
+      "sortOrder": 1,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "CHEMICAL",
+      "created": "2024-06-05T16:01:13.037",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Chemical",
+      "id": "tAWvFQvutf3",
+      "sortOrder": 3,
+      "optionSet": { "id": "p2N1GkG713S" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "7",
+      "created": "2024-07-25T14:06:25.276",
+      "lastUpdated": "2024-07-25T14:06:25.284",
+      "name": "Cholera",
+      "id": "VbeGvYy55fF",
+      "sortOrder": 7,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "CLOSED",
+      "created": "2024-06-05T16:04:04.896",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Closed",
+      "id": "Bf2aXBS3xh1",
+      "sortOrder": 4,
+      "optionSet": { "id": "BhYOdRU5xsg" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "COMPLETE",
+      "created": "2024-06-11T16:32:57.821",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Complete",
+      "id": "mpasSZAsWVt",
+      "sortOrder": 4,
+      "optionSet": { "id": "tSQYDjPOWW4" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "8",
+      "created": "2024-07-25T14:06:43.970",
+      "lastUpdated": "2024-07-25T14:06:43.999",
+      "name": "Diarrhoea with blood box",
+      "id": "tEyNuG0l0Dz",
+      "sortOrder": 8,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "DISCARDED",
+      "created": "2024-06-05T16:04:25.109",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Discarded",
+      "id": "s04HoX0oboN",
+      "sortOrder": 5,
+      "optionSet": { "id": "BhYOdRU5xsg" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "EBS",
+      "created": "2024-07-22T13:13:07.317",
+      "lastUpdated": "2024-07-22T13:13:07.356",
+      "name": "EBS",
+      "id": "J8o3m8aQU41",
+      "sortOrder": 1,
+      "optionSet": { "id": "kSsd5PSQqH7" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "ENVIRONMENTAL",
+      "created": "2024-06-05T16:01:36.469",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Environmental",
+      "id": "Ne4jobiQL6t",
+      "sortOrder": 4,
+      "optionSet": { "id": "p2N1GkG713S" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "HIGH",
+      "created": "2024-06-11T16:39:42.606",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "High",
+      "id": "ozGHnlGZYxD",
+      "sortOrder": 3,
+      "optionSet": { "id": "XmHTommzcWV" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "LIKE4",
+      "created": "2024-06-11T17:40:46.782",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "Highly likely",
+      "id": "aaz05B0lug0",
+      "sortOrder": 4,
+      "optionSet": { "id": "duQqbJwq2IE" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "IBS",
+      "created": "2024-07-22T13:15:47.698",
+      "lastUpdated": "2024-07-22T13:15:47.727",
+      "name": "IBS",
+      "id": "sOSXYQA4U1l",
+      "sortOrder": 2,
+      "optionSet": { "id": "kSsd5PSQqH7" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "IN_PROGRESS",
+      "created": "2024-06-11T16:32:46.772",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "In Progress",
+      "id": "rtKepFPM2FQ",
+      "sortOrder": 3,
+      "optionSet": { "id": "tSQYDjPOWW4" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "1",
+      "created": "2024-06-11T16:42:28.786",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Less than 0.1%",
+      "id": "qFV4LEWEZaF",
+      "sortOrder": 1,
+      "optionSet": { "id": "TxKb2zdYxKk" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "LIKE3",
+      "created": "2024-06-11T17:40:37.864",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "Likely",
+      "id": "MDXSaGzkZw6",
+      "sortOrder": 3,
+      "optionSet": { "id": "duQqbJwq2IE" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "LOW",
+      "created": "2024-06-11T16:39:18.857",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Low",
+      "id": "aBxzwd4KPYW",
+      "sortOrder": 1,
+      "optionSet": { "id": "XmHTommzcWV" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "MAJOR",
+      "created": "2024-06-11T17:44:36.425",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Major",
+      "id": "vFPinOcG4zs",
+      "sortOrder": 4,
+      "optionSet": { "id": "bfhvh9S77Xx" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "9",
+      "created": "2024-07-25T14:07:01.838",
+      "lastUpdated": "2024-07-25T14:07:01.872",
+      "name": "Measles",
+      "id": "XdZzApO9sLA",
+      "sortOrder": 9,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "MEDIUM",
+      "created": "2024-06-11T16:39:27.738",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Medium",
+      "id": "pgdHrCencZG",
+      "sortOrder": 2,
+      "optionSet": { "id": "XmHTommzcWV" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "MINIMAL",
+      "created": "2024-06-11T17:44:03.477",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Minimal",
+      "id": "FLgcdU9TnRM",
+      "sortOrder": 1,
+      "optionSet": { "id": "bfhvh9S77Xx" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "MINOR",
+      "created": "2024-06-11T17:44:13.051",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Minor",
+      "id": "NQRr0CbjUjq",
+      "sortOrder": 2,
+      "optionSet": { "id": "bfhvh9S77Xx" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "MODERATE",
+      "created": "2024-06-11T17:44:28.369",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Moderate",
+      "id": "zWpZ9n3fUju",
+      "sortOrder": 3,
+      "optionSet": { "id": "bfhvh9S77Xx" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "10",
+      "created": "2024-07-25T14:13:04.226",
+      "lastUpdated": "2024-07-25T14:13:04.255",
+      "name": "Monkeypox",
+      "id": "eGQRpZN36Ob",
+      "sortOrder": 10,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "3",
+      "created": "2024-06-11T16:47:06.606",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "More than one province affected with high threat of spread locally and internationally",
+      "id": "f6VJsqB42XB",
+      "sortOrder": 3,
+      "optionSet": { "id": "VxEwrrsHwQn" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "11",
+      "created": "2024-07-25T14:13:24.916",
+      "lastUpdated": "2024-07-25T14:13:24.941",
+      "name": "Neonatal tetanus",
+      "id": "SALXb1jRqhZ",
+      "sortOrder": 11,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "NOT_DONE",
+      "created": "2024-06-11T16:32:28.068",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Not done",
+      "id": "Z4lemZKrG3h",
+      "sortOrder": 1,
+      "optionSet": { "id": "tSQYDjPOWW4" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "1",
+      "created": "2024-07-22T12:42:52.371",
+      "lastUpdated": "2024-07-22T12:42:52.421",
+      "name": "OPTION1",
+      "id": "l8NXXZxojy6",
+      "sortOrder": 1,
+      "optionSet": { "id": "cUuUSpX7zST" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "2",
+      "created": "2024-07-22T12:42:57.025",
+      "lastUpdated": "2024-07-22T12:42:57.052",
+      "name": "OPTION2",
+      "id": "oa9MyVKhPK4",
+      "sortOrder": 2,
+      "optionSet": { "id": "cUuUSpX7zST" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "PENDING",
+      "created": "2024-06-11T16:32:37.793",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Pending",
+      "id": "a3IB8wHxzZq",
+      "sortOrder": 2,
+      "optionSet": { "id": "tSQYDjPOWW4" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "12",
+      "created": "2024-07-25T14:13:38.094",
+      "lastUpdated": "2024-07-25T14:13:38.124",
+      "name": "Plague",
+      "id": "D7wrmVb9Tnn",
+      "sortOrder": 12,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "Q1",
+      "created": "2024-06-11T17:35:41.080",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "Potential risk for human health?",
+      "id": "CmCFhIvS1de",
+      "sortOrder": 1,
+      "optionSet": { "id": "ooZU7HPzQ2w" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "RESPOND",
+      "created": "2024-06-05T16:03:50.087",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Respond",
+      "id": "l9ANfY56f4N",
+      "sortOrder": 3,
+      "optionSet": { "id": "BhYOdRU5xsg" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "Q2",
+      "created": "2024-06-11T17:35:49.610",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "Risk of event spreading?",
+      "id": "Tj8O3MhXWD1",
+      "sortOrder": 2,
+      "optionSet": { "id": "ooZU7HPzQ2w" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "Q3",
+      "created": "2024-06-11T17:36:21.537",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "Risk of insufficient control capacities with available resources?",
+      "id": "j7LNg3s20AL",
+      "sortOrder": 3,
+      "optionSet": { "id": "ooZU7HPzQ2w" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "13",
+      "created": "2024-07-25T14:13:50.712",
+      "lastUpdated": "2024-07-25T14:13:50.742",
+      "name": "SARIs",
+      "id": "X5DuWwoTdrl",
+      "sortOrder": 13,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "SEVERE",
+      "created": "2024-06-11T17:44:45.779",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Severe",
+      "id": "mwf89230M8v",
+      "sortOrder": 5,
+      "optionSet": { "id": "bfhvh9S77Xx" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "14",
+      "created": "2024-07-25T14:14:13.298",
+      "lastUpdated": "2024-07-25T14:14:13.329",
+      "name": "Typhoid fever",
+      "id": "hJxOq1DV37p",
+      "sortOrder": 14,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "UNKNOWN",
+      "created": "2024-06-05T16:02:08.432",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Unknown",
+      "id": "ZxyTxO3JUu7",
+      "sortOrder": 5,
+      "optionSet": { "id": "p2N1GkG713S" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "LIKE2",
+      "created": "2024-06-11T17:40:29.725",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "Unlikely",
+      "id": "bSrqxBbshka",
+      "sortOrder": 2,
+      "optionSet": { "id": "duQqbJwq2IE" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "UNVERIFIED",
+      "created": "2024-06-12T11:42:57.745",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Unverified",
+      "id": "uIxFTZhF3Ud",
+      "sortOrder": 2,
+      "optionSet": { "id": "Ms3o0qW8EZC" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "VERIFIED",
+      "created": "2024-06-12T11:42:48.394",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Verified",
+      "id": "Gp8XorrTMQX",
+      "sortOrder": 1,
+      "optionSet": { "id": "Ms3o0qW8EZC" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "LIKE1",
+      "created": "2024-06-11T17:39:50.794",
+      "lastUpdated": "2024-06-18T18:08:10.238",
+      "name": "Very unlikely",
+      "id": "RdNOnzmOa3B",
+      "sortOrder": 1,
+      "optionSet": { "id": "duQqbJwq2IE" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "WATCH",
+      "created": "2024-06-05T16:02:56.173",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Watch",
+      "id": "R9XhgWy2LVs",
+      "sortOrder": 1,
+      "optionSet": { "id": "BhYOdRU5xsg" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "1",
+      "created": "2024-06-11T16:46:50.822",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Within a district",
+      "id": "Ihx7gV5bhfs",
+      "sortOrder": 1,
+      "optionSet": { "id": "VxEwrrsHwQn" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "2",
+      "created": "2024-06-11T16:46:58.426",
+      "lastUpdated": "2024-06-18T18:08:10.237",
+      "name": "Within a province with more than one district affected",
+      "id": "chJgff8BxCD",
+      "sortOrder": 2,
+      "optionSet": { "id": "VxEwrrsHwQn" },
+      "attributeValues": [],
+      "translations": []
+    },
+    {
+      "code": "15",
+      "created": "2024-07-25T14:14:28.282",
+      "lastUpdated": "2024-07-25T14:14:28.309",
+      "name": "Zika fever",
+      "id": "eR3zE3XVtwq",
+      "sortOrder": 15,
+      "optionSet": { "id": "DFSpWpoNq5r" },
+      "attributeValues": [],
+      "translations": []
+    }
+  ]
+}
