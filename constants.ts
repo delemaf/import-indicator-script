@@ -19,8 +19,6 @@ export const diseases = [
 ];
 export const incidentStatuses = ["WATCH", "ALERT", "RESPOND"];
 
-export const indicatorIds = ["dr4OT0ql4cl"]; // List of template indicator IDs to be copied;
-
 export const diseaseTrackedEntityId = "jLvbkuvPdZ6";
 export const statusTrackedEntityId = "cDLJoNCWHHs";
 
