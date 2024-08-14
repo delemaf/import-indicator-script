@@ -2,12 +2,13 @@ import fs from "fs";
 import _ from "lodash";
 import { codes } from "./uid.json";
 import {
+  diseases as diseasesList,
   diseaseOptionSetId,
   diseaseTrackedEntityId,
   indicatorIds,
   statusOptionSetId,
   statusTrackedEntityId,
-  incidentStatuses,
+  incidentStatuses as incidentStatusesList,
 } from "./constants";
 
 interface Metadata {
@@ -116,18 +117,21 @@ function getOptionsByOptionSetIds(
   metadata: Metadata,
   optionSetIds: string[]
 ): { diseases: Option[]; statuses: Option[] } {
-  const diseases = metadata.options.filter(
-    (option) =>
-      optionSetIds.includes(option.optionSet.id) &&
-      option.optionSet.id === optionSetIds[0]
-  );
+  const diseases = metadata.options
+    .filter(
+      (option) =>
+        optionSetIds.includes(option.optionSet.id) &&
+        option.optionSet.id === optionSetIds[0]
+    )
+    .filter((option) => diseasesList.includes(option.name));
+
   const statuses: Option[] = metadata.options
     .filter(
       (option) =>
         optionSetIds.includes(option.optionSet.id) &&
         option.optionSet.id === optionSetIds[1]
     )
-    .filter((option) => incidentStatuses.includes(option.code));
+    .filter((option) => incidentStatusesList.includes(option.code));
   return { diseases, statuses };
 }
 
@@ -146,13 +150,14 @@ function createIndicatorsFromTemplates(
       throw new Error(`Template indicator with ID ${templateId} not found.`);
     }
 
-    return diseases.flatMap((disease) =>
-      statuses.map((status) => {
+    // Handle cases where one of the arrays is empty
+    if (diseases.length === 0) {
+      return statuses.map((status) => {
         const newIndicator = { ...templateIndicator };
         newIndicator.id = generateId();
-        newIndicator.name = `${templateIndicator.name} - ${disease.name} - ${status.name}`;
-        newIndicator.shortName = `${templateIndicator.name} - ${disease.code} - ${status.code}`;
-        newIndicator.filter = `A{${statusTrackedEntityId}}=="${status.code}" && A{${diseaseTrackedEntityId}}=="${disease.code}"`; // Adjust attribute IDs as necessary
+        newIndicator.name = `${templateIndicator.name} - ${status.name}`;
+        newIndicator.shortName = `${templateIndicator.name} - ${status.code}`;
+        newIndicator.filter = `A{${statusTrackedEntityId}}=="${status.code}"`;
         newIndicator.lastUpdated = new Date().toISOString();
         newIndicator.created = newIndicator.lastUpdated;
         newIndicator.analyticsPeriodBoundaries =
@@ -163,8 +168,46 @@ function createIndicatorsFromTemplates(
             created: newIndicator.created,
           }));
         return newIndicator;
-      })
-    );
+      });
+    } else if (statuses.length === 0) {
+      return diseases.map((disease) => {
+        const newIndicator = { ...templateIndicator };
+        newIndicator.id = generateId();
+        newIndicator.name = `${templateIndicator.name} - ${disease.name}`;
+        newIndicator.shortName = `${templateIndicator.name} - ${disease.code}`;
+        newIndicator.filter = `A{${diseaseTrackedEntityId}}=="${disease.code}"`;
+        newIndicator.lastUpdated = new Date().toISOString();
+        newIndicator.created = newIndicator.lastUpdated;
+        newIndicator.analyticsPeriodBoundaries =
+          newIndicator.analyticsPeriodBoundaries.map((boundary) => ({
+            ...boundary,
+            id: generateId(),
+            lastUpdated: newIndicator.lastUpdated,
+            created: newIndicator.created,
+          }));
+        return newIndicator;
+      });
+    } else {
+      return diseases.flatMap((disease) =>
+        statuses.map((status) => {
+          const newIndicator = { ...templateIndicator };
+          newIndicator.id = generateId();
+          newIndicator.name = `${templateIndicator.name} - ${disease.name} - ${status.name}`;
+          newIndicator.shortName = `${templateIndicator.name} - ${disease.code} - ${status.code}`;
+          newIndicator.filter = `A{${statusTrackedEntityId}}=="${status.code}" && A{${diseaseTrackedEntityId}}=="${disease.code}"`; // Adjust attribute IDs as necessary
+          newIndicator.lastUpdated = new Date().toISOString();
+          newIndicator.created = newIndicator.lastUpdated;
+          newIndicator.analyticsPeriodBoundaries =
+            newIndicator.analyticsPeriodBoundaries.map((boundary) => ({
+              ...boundary,
+              id: generateId(),
+              lastUpdated: newIndicator.lastUpdated,
+              created: newIndicator.created,
+            }));
+          return newIndicator;
+        })
+      );
+    }
   });
 }
 
@@ -183,7 +226,7 @@ function main() {
     statusOptionSetId,
   ]);
 
-  if (diseases.length === 0 || statuses.length === 0) {
+  if (diseases.length === 0 && statuses.length === 0) {
     throw new Error("No options found for the given option set IDs.");
   }
 
@@ -198,9 +241,9 @@ function main() {
     // system: { ...metadata.system },
     programIndicators: indicators,
   };
-
+  console.log("Writing to file: ", outputPath);
   fs.writeFileSync(outputPath, JSON.stringify(buildImport, null, 2));
-  console.log("Indicators created successfully!");
+  console.log("Indicators created successfully! Total: " + indicators.length);
 }
 
 main();
