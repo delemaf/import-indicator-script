@@ -1,3 +1,5 @@
+export const indicatorIds = ["dr4OT0ql4cl"]; // List of template indicator IDs to be copied;
+
 export const diseases = [
   "COVID19",
   "AFP",
